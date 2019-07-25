@@ -5,6 +5,7 @@ from django.db import models
 class HomePage(models.Model):
     picture = models.ImageField(upload_to='images/main/%Y/%m/%d')
     blurb = models.TextField(max_length=255)
+    introduction = models.TextField(max_length=20000)
 
     def __str__(self):
         return self.blurb[:50]

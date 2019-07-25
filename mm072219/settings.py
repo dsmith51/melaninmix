@@ -77,15 +77,10 @@ WSGI_APPLICATION = 'mm072219.wsgi.application'
 
 DATABASES = {
     'default': {
-    'ENGINE': 'django.db.backends.postgresql',
-    'NAME': 'melmixdatabase',
-    'USER': 'karly',
-    'PASSWORD': 'HTOjxSYvoE0qCVwKEDlu',
-    'HOST': 'melmixdatabase.cx5zs8m1xfu6.us-west-2.rds.amazonaws.com',
-    'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'mydatabase',
+    }
 }
-}
-
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 
