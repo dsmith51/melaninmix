@@ -25,7 +25,7 @@ SECRET_KEY = '*j2&opc)^4m5(pv3)x*%tt^@t5l3j!c!--+4a!cx^26afe#1j@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['.melaninmixpodcast.com']
 
 
 # Application definition
