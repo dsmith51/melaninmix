@@ -25,7 +25,7 @@ SECRET_KEY = '*j2&opc)^4m5(pv3)x*%tt^@t5l3j!c!--+4a!cx^26afe#1j@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['.melaninmixpodcast.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -77,13 +77,9 @@ WSGI_APPLICATION = 'mm072219.wsgi.application'
 
 DATABASES = {
     'default': {
-    'ENGINE': 'django.db.backends.postgresql',
-    'NAME': 'melmixdatabase',
-    'USER': 'karly',
-    'PASSWORD': 'HTOjxSYvoE0qCVwKEDlu',
-    'HOST': 'melmixdatabase.cx5zs8m1xfu6.us-west-2.rds.amazonaws.com',
-    'PORT': '5432',
-}
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'mydatabase',
+    }
 }
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
