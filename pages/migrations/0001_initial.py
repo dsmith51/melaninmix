@@ -15,7 +15,7 @@ class Migration(migrations.Migration):
             name='About',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('picture', models.ImageField(upload_to='images/hosts/%Y/%m/%d')),
+                ('picture', models.ImageField(upload_to='static/hosts/%Y/%m/%d')),
                 ('title', models.CharField(blank=True, max_length=75)),
                 ('text', models.TextField(max_length=10000)),
             ],
@@ -24,7 +24,7 @@ class Migration(migrations.Migration):
             name='Amber',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('profile', models.ImageField(upload_to='images/amber/%Y/%m/%d')),
+                ('profile', models.ImageField(upload_to='static/amber/%Y/%m/%d')),
                 ('bio', models.TextField(max_length=10000)),
             ],
         ),
@@ -42,7 +42,7 @@ class Migration(migrations.Migration):
             name='HomePage',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('picture', models.ImageField(upload_to='images/main/%Y/%m/%d')),
+                ('picture', models.ImageField(upload_to='static/main/%Y/%m/%d')),
                 ('blurb', models.TextField(max_length=255)),
             ],
         ),
@@ -50,7 +50,7 @@ class Migration(migrations.Migration):
             name='Karly',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('profile', models.ImageField(upload_to='images/karly/%Y/%m/%d')),
+                ('profile', models.ImageField(upload_to='static/karly/%Y/%m/%d')),
                 ('bio', models.TextField(max_length=10000)),
             ],
         ),

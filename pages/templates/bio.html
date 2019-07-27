@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block page %}
 Meet the Hosts
@@ -9,7 +10,8 @@ Meet the Hosts
     <ul>
     {%  for bio in bios %}
 
-        <li>{{ bio }}{{ bio.profile }}{{ bio.bio }}</li>
+        <li>{{ bio }}<img src="{% static 'karly/2019/07/22/terry-crews-person-of-year-2017-time-magazine-2.jpg' %}">
+            {{ bio.bio }}</li>
 
 
     {% endfor %}
