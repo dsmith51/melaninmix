@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/images/karly/2019/07/22/terry-crews-person-of-year-2017-time-magazine-2_XfTyVfB.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mm072219/static/karly/2019/07/22/terry-crews-person-of-year-2017-time-magazine-2_XfTyVfB.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/main/2019/07/22/terry-crews-person-of-year-2017-time-magazine-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mm072219/static/main/2019/07/22/terry-crews-person-of-year-2017-time-magazine-2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mm072219/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mm072219/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydatabase" beforeDir="false" afterPath="$PROJECT_DIR$/mydatabase" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/migrations/0002_auto_20190722_2147.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/migrations/0002_auto_20190722_2147.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/models.py" afterDir="false" />
@@ -52,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mm072219/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="126" column="33" selection-start-line="126" selection-start-column="33" selection-end-line="126" selection-end-column="33" />
+            <state relative-caret-position="227">
+              <caret line="125" selection-start-line="125" selection-end-line="125" />
             </state>
           </provider>
         </entry>
@@ -315,29 +316,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563818147024</updated>
-      <workItem from="1563818148695" duration="37698000" />
+      <workItem from="1563818148695" duration="38014000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37698000" />
+    <option name="totallyTimeSpent" value="38014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="512" y="23" width="752" height="713" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="aws.explorer" side_tool="true" />
       <window_info id="DB Browser" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24929577" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24929577" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="DB Execution Console" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" weight="0.32850242" />
-      <window_info anchor="bottom" id="manage.py@mm072219" visible="true" weight="0.32850242" />
-      <window_info anchor="bottom" id="Terminal" weight="0.41384864" />
+      <window_info anchor="bottom" id="manage.py@mm072219" weight="0.32850242" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.41384864" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
@@ -520,8 +520,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mm072219/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="126" column="33" selection-start-line="126" selection-start-column="33" selection-end-line="126" selection-end-column="33" />
+        <state relative-caret-position="227">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
         </state>
       </provider>
     </entry>
