@@ -3,18 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6fcef564-1e91-45f8-aa6d-cd0a56d2f93f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hosts/2019/07/22/terry-crews-person-of-year-2017-time-magazine-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mm072219/static/hosts/2019/07/22/terry-crews-person-of-year-2017-time-magazine-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/karly/2019/07/22/scorpion_pic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mm072219/static/karly/2019/07/22/scorpion_pic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/karly/2019/07/22/terry-crews-person-of-year-2017-time-magazine-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mm072219/static/karly/2019/07/22/terry-crews-person-of-year-2017-time-magazine-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/karly/2019/07/22/terry-crews-person-of-year-2017-time-magazine-2_XfTyVfB.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mm072219/static/karly/2019/07/22/terry-crews-person-of-year-2017-time-magazine-2_XfTyVfB.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/main/2019/07/22/terry-crews-person-of-year-2017-time-magazine-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mm072219/static/main/2019/07/22/terry-crews-person-of-year-2017-time-magazine-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mm072219/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mm072219/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mydatabase" beforeDir="false" afterPath="$PROJECT_DIR$/mydatabase" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/migrations/0002_auto_20190722_2147.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/migrations/0002_auto_20190722_2147.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/templates/bio.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/templates/bio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -316,12 +304,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563818147024</updated>
-      <workItem from="1563818148695" duration="38014000" />
+      <workItem from="1563818148695" duration="38348000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38014000" />
+    <option name="totallyTimeSpent" value="38348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="512" y="23" width="752" height="713" extended-state="0" />
