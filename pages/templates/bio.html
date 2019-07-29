@@ -9,11 +9,13 @@ Meet the Hosts
 
     <ul>
     {%  for bio in bios %}
-
-        <li>{{ bio }}<img src="{% static 'karly/2019/07/22/terry-crews-person-of-year-2017-time-magazine-2.jpg' %}">
-            {{ bio.bio }}</li>
-
-
+<div class="card mb-3 mx-auto" style="width: 54rem;">
+  <img src="{% static 'karly/2019/07/22/terry-crews-person-of-year-2017-time-magazine-2.jpg' %}" class="card-img-top" alt="{{ bio.name }}">
+  <div class="card-body">
+    <h5 class="card-title">{{ bio.name }}</h5>
+    <p class="card-text">{{ bio.bio }}</p>
+  </div>
+</div>
     {% endfor %}
     </ul>
     {% else %}

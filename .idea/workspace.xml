@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fcef564-1e91-45f8-aa6d-cd0a56d2f93f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/templates/bio.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/templates/bio.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mm072219/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="125" selection-start-line="125" selection-end-line="125" />
+            <state relative-caret-position="711">
+              <caret line="122" column="23" selection-start-line="122" selection-start-column="23" selection-end-line="122" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -84,11 +84,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/templates/bio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="280">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#ul#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,8 +154,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pages/migrations/0002_auto_20190722_2147.py" />
         <option value="$PROJECT_DIR$/pages/urls.py" />
-        <option value="$PROJECT_DIR$/pages/templates/bio.html" />
         <option value="$PROJECT_DIR$/mm072219/settings.py" />
+        <option value="$PROJECT_DIR$/pages/templates/bio.html" />
       </list>
     </option>
   </component>
@@ -304,12 +307,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563818147024</updated>
-      <workItem from="1563818148695" duration="38348000" />
+      <workItem from="1563818148695" duration="38014000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38348000" />
+    <option name="totallyTimeSpent" value="38942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="512" y="23" width="752" height="713" extended-state="0" />
@@ -324,8 +327,8 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" weight="0.32850242" />
-      <window_info anchor="bottom" id="manage.py@mm072219" weight="0.32850242" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.41384864" />
+      <window_info active="true" anchor="bottom" id="manage.py@mm072219" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Terminal" weight="0.41384864" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
@@ -492,10 +495,10 @@
         <state relative-caret-position="-411" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/templates/bio.html">
+    <entry file="file://$PROJECT_DIR$/mm072219/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="711">
+          <caret line="122" column="23" selection-start-line="122" selection-start-column="23" selection-end-line="122" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -506,10 +509,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mm072219/settings.py">
+    <entry file="file://$PROJECT_DIR$/pages/templates/bio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        <state relative-caret-position="280">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#ul#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
