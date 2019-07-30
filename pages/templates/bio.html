@@ -10,10 +10,10 @@ Meet the Hosts
     <ul>
     {%  for bio in bios %}
 <div class="card mb-3 mx-auto w-65 h-80">
-  <img src="{% static 'karly/2019/07/22' %}" class="card-img-top" alt="{{ bio.name }}">
+  <img src="{% static bio.profile.url %}" class="card-img-top" alt="{{ bio.name }}">
   <div class="card-body">
     <h5 class="card-title">{{ bio.name }}</h5>
-    <p class="card-text">{{ bio.bio }}</p>
+    <p class="card-text">{{ bio.bio }}{{ bio.profile }}</p>
   </div>
 </div>
     {% endfor %}

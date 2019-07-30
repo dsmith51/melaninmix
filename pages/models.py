@@ -12,7 +12,7 @@ class HomePage(models.Model):
 
 
 class About(models.Model):
-    picture = models.ImageField(upload_to='static/hosts/%Y/%m/%d')
+    picture = models.ImageField(upload_to='static/images/hosts/%Y/%m/%d')
     title = models.CharField(max_length=75, blank=True)
     text = models.TextField(max_length=10000)
 
@@ -22,7 +22,7 @@ class About(models.Model):
 
 class Bio(models.Model):
     name = models.CharField(max_length=50)
-    profile = models.ImageField(upload_to='static/karly/%Y/%m/%d')
+    profile = models.ImageField(upload_to='static/images/karly/%Y/%m/%d')
     bio = models.TextField(max_length=10000)
 
     def __str__(self):
