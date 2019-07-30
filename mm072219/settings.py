@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'mm072219.wsgi.application'
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
+    'default':{
     'ENGINE': 'django.db.backends.postgresql',
     'NAME': 'melmixdatabase',
     'USER': 'karly',

@@ -8,9 +8,9 @@
 {% if information %}
 <h3>
 {% for info in information %}
-{{ info.title }}
+    <span class="mx-auto">{{ info.title }}</span>
 </h3>
-    <img class="vw-50 vh-60" src="{% static 'hosts/2019/07/22/terry-crews-person-of-year-2017-time-magazine-2.jpg' %}" class="card-img-top" alt="{{ bio.name }}"><br>
+    <img class="w-50 h-60" src="{% static 'hosts/2019/07/22/terry-crews-person-of-year-2017-time-magazine-2.jpg' %}" class="card-img-top" alt="{{ bio.name }}"><br>
     {{ info.text }}
     {% endfor %}
 {% endif %}
