@@ -9,7 +9,7 @@
 {% for info in information %}
 {{ info.title }}
 </h3>
-    {{ info.picture }}<br>
+    <img class="vw-50 vh-60" src="{% static 'hosts/2019/07/22/terry-crews-person-of-year-2017-time-magazine-2.jpg' %}" class="card-img-top" alt="{{ bio.name }}"><br>
     {{ info.text }}
     {% endfor %}
 {% endif %}
