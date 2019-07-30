@@ -5,13 +5,16 @@
     About Us
 {% endblock %}
 {% block content %}
-{% if information %}
+
 <h3>
-{% for info in information %}
-    <span class="mx-auto">{{ info.title }}</span>
+    <span class="mx-auto">Our Mission</span>
 </h3>
-    <img class="w-50 h-60" src="{% static info.picture.url %}" class="card-img-top" alt="{{ bio.name }}"><br>
-    {{ info.text }}
-    {% endfor %}
-{% endif %}
+    <img class="w-50 h-60 card-img-top" src="{% static 'hosts/2019/07/22/hosts.JPG' %}" alt="{{ bio.name }}"><br>
+    <p class="mx-auto">We are “The Melanin Mix”, a podcast that is available on all streaming platforms. The Melanin Mix is a chatcast
+        that covers a variety of topics that aims to give black women and minorities a safe space to voice their unique
+        experiences. We also offer our perspectives and life experiences on the show and we bring on a diverse set of
+        guests to share their opinions and experiences on topics that are relevant for our listeners. We are known for our
+        ability to have well-structured yet entertaining conversations on relevant topics in relation to our community.
+        We are most proud when we hear that the conversations on our show have positively impacted our listeners.
+    </p>
 {% endblock content %}

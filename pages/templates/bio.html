@@ -5,20 +5,21 @@
 Meet the Hosts
 {% endblock %}
 {% block content %}
-{% if bios %}
 
-    <ul>
-    {%  for bio in bios %}
+
 <div class="card mb-3 mx-auto w-65 h-80">
-  <img src="{% static bio.profile.url %}" class="card-img-top" alt="{{ bio.name }}">
+  <img src="{% static 'karly/karly.jpeg' %}" class="card-img-top" alt="Karly">
   <div class="card-body">
-    <h5 class="card-title">{{ bio.name }}</h5>
-    <p class="card-text">{{ bio.bio }}{{ bio.profile }}</p>
+    <h5 class="card-title">Karly</h5>
+    <p class="card-text">{{ bio.bio }}</p>
   </div>
 </div>
-    {% endfor %}
-    </ul>
-    {% else %}
-    <h1>Error occurred, Contact Admin!</h1>
-{% endif %}
+        <div class="card mb-3 mx-auto w-65 h-80">
+        <img src="{% static 'karly/amber.JPG' %}" class="card-img-top" alt="Amber">
+      <div class="card-body">
+    <h5 class="card-title">Amber</h5>
+    <p class="card-text">{{ bio.bio }}</p>
+  </div>
+</div>
+
 {% endblock content %}
